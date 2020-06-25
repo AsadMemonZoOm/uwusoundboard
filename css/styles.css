@@ -1,0 +1,88 @@
+body{
+  text-align: center;
+  background-color: #1b1b2f;
+  color: white;
+}
+
+.header-section{
+  padding: 1% 10%;
+  margin: 0;
+  background-color: #32e0c4;
+  text-align: center;
+}
+
+.body-section{
+  background-color: #01a9b4;
+}
+
+.header-section h1{
+  text-shadow: 2px 2px black;
+  font-size: 3rem;
+  font-family: 'Poller One', cursive;
+  display: inline-block;
+  position: relative;
+  bottom: 60px;
+
+
+}
+
+.header-section img{
+  width: 20%;
+  display: inline-block;
+}
+
+
+
+.key{
+  background-color: #d63447;
+  margin: 5px 5px;
+  line-height: 1.5;
+  font-family: 'Montserrat Alternates', sans-serif;
+  padding: 10px;
+  width: 60px;
+  display: inline-block;
+  border: 1px solid black;
+  font-size: 3rem;
+}
+
+.press{
+  background-color: #4cbbb9;
+}
+
+.keyboard{
+  padding: 2% 10%;
+}
+
+.row{
+
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+  .header-section h1{
+    font-size: 2rem;
+    bottom : 30px;
+  }
+  .header-section img{
+    width: 20%;
+  }
+  .key{
+    width: 40px;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-section h1{
+    font-size: 1.5rem;
+    bottom : 30px;
+
+  }
+  .header-section img{
+    width: 20%;
+
+  }
+  .key{
+    width: 20px;
+    font-size: 1rem;
+  }
+}
